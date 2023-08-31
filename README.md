@@ -2,7 +2,7 @@
 In this repository i have added some of my CSS<b> "Grid property in CSS" and
 "Media Queries in CSS"</b> knowledge like this-
 
-<h1 stylw="font size 10px><b>CSS Grid Property:-</b></h1>
+<h1 stylw="font size 10px"><b>CSS Grid Property:-</b></h1>
 <b>Grid Propertys For Main Container:</b>
         &#10148; <b>Display grid:</b>
         &#10148; <b>Grid Row Gap:</b>
