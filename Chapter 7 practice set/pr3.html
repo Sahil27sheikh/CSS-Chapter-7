@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <title>pr4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background-color: black;
+            color: white;
+            z-index: 2;
+        }
+
+        .navbar {
+            display: inline-block;
+            display: grid;
+            grid-template-columns: 10vw 20vw 10vw auto 10vw;
+            position: relative;
+        }
+
+        .man {
+            display: inline-flex;
+            grid-column: 1/2; 
+            justify-content: center;
+        }
+
+        .man img {
+            height: 12vh;
+            align-content: center;
+        }
+
+        h1 {
+            font-size: 7vh;
+            display: inline-flex;
+            grid-column: 2/3;
+            padding-top: 2vh; 
+            justify-content: right;
+        }
+
+        .cart {
+            display: inline-block;
+            grid-column: 3/4; 
+        }
+
+        .cart img {
+            height: 10vh;
+            padding-top: 2vh;
+
+        }
+
+        ul {
+            display: inline-flex;
+            position: relative;
+            flex-wrap: nowrap;
+            justify-content: center; 
+        }
+
+        li {
+            display: inline-block;
+            padding-inline: 5vh;
+            font-size: 4vh;
+            font-weight: bolder; 
+            padding-top: 4vh;
+
+        }
+
+        .background {
+            display: grid;
+            grid-template-columns: auto 20vw auto;
+            position: relative;
+            background-image: url(background\ 2.jpg);
+            background-size: 1600px;
+            height: 40vh;
+            width: 100%;
+
+        }
+
+        .background p {
+            grid-column: 2/3;
+            color: white;
+            border: 2px solid white;
+            border-style: dashed;
+            padding-top: 5vh; 
+            font-size: 18px;
+        }
+
+        .boxes {
+            display: grid;
+            grid-template-columns: auto 25vw auto 25vw auto 25vw auto;
+            grid-template-rows: 25vh 25vh 25vh;
+            position: relative;
+            background-color: navy;
+
+        }
+
+        .box1 {
+            display: inline-flex;
+            background-color: aqua;
+            grid-column: 2/3;
+            grid-row: 2/3;
+            justify-content: center;
+        }
+
+        .box2 {
+            display: inline-flex;
+            background-color: rgb(100, 100, 128);
+            grid-column: 4/5;
+            grid-row: 2/3;
+            justify-content: center;
+        }
+
+        .box3 {
+            display: inline-flex;
+            background-color: rgb(29, 175, 109);
+            grid-column: 6/7;
+            grid-row: 2/3;
+            justify-content: center;
+        }
+
+        .box1 img {
+            height: 25vh;
+        }
+
+        .box2 img {
+            height: 25vh;
+        }
+
+        .box3 img {
+            height: 25vh;
+        }
+
+        @media screen and (max-width:1300px) {
+            header{
+                background-color: darksalmon;
+                color: black;
+            }
+            .navbar {
+                grid-template-columns: 8vw 17vw 8vw auto 8vw;
+            }
+
+            .man img {
+                height: 10vh;
+            }
+            h1 {
+            font-size: 5vh;
+            padding-top: 2vh;
+        }
+        .cart img {
+            height: 8vh;
+            padding-top: 1.5vh;
+
+        }
+        li { 
+            padding-inline: 4vh;
+            font-size: 3.5vh; 
+            padding-top: 3vh;
+
+        }
+        .background { 
+            grid-template-columns: auto 25vw auto; 
+            height: 35vh; 
+
+        }
+        .background p {
+            padding-top: 4vh;
+            font-size: 15px;
+        }
+        .boxes { 
+            grid-template-columns: auto 22vw auto 22vw auto 22vw auto;
+            grid-template-rows: 22vh 22vh 22vh; 
+            background-color: cornflowerblue;
+        }
+        .box1 img {
+            height: 22vh;
+        }
+
+        .box2 img {
+            height: 22vh;
+        }
+
+        .box3 img {
+            height: 22vh;
+        }
+        }
+
+
+        @media screen and (max-width:1100px) {
+            header{
+                background-color: coral;
+                color: black;
+            }
+            .navbar {
+                grid-template-columns: 7vw 18vw 7vw auto 6vw;
+            }
+
+            .man img {
+                height: 7vh;
+                padding-top: 0.5vh;
+            }
+            h1 {
+            font-size: 4vh;
+            padding-top: 1vh;
+        }
+        .cart img {
+            height: 6vh;
+            padding-top: 1vh;
+
+        }
+        li { 
+            padding-inline: 3vh;
+            font-size: 3vh; 
+            padding-top: 2vh;
+
+        }
+        .background { 
+            grid-template-columns: auto 23vw auto; 
+            height: 40vh; 
+
+        }
+        .background p {
+            padding-top: 4vh;
+            font-size: 13px;
+        }
+        .boxes { 
+            grid-template-columns: auto 12vw auto 12vw auto 12vw auto;
+            grid-template-rows: 19vh 19vh 19vh; 
+            background-color: rgb(18, 202, 83);
+        }
+        .box1 img {
+            height: 19vh;
+        }
+
+        .box2 img {
+            height: 19vh;
+        }
+
+        .box3 img {
+            height: 19vh;
+        }
+        }
+
+
+        @media screen and (max-width:900px) {
+            header{
+                background-color: rgb(148, 201, 24);
+                color: black;
+            }
+            .navbar {
+                grid-template-columns: 8vw 18vw 8vw auto 5vw;
+            }
+
+            .man img {
+                height: 5.5vh;
+                padding-top: 0.8vh;
+            }
+            h1 {
+            font-size: 3vh;
+            padding-top: 1.5vh;
+        }
+        .cart img {
+            height: 5vh;
+            padding-top: 1.5vh;
+
+        }
+        li { 
+            padding-inline: 3vh;
+            font-size: 2vh; 
+            padding-top: 2vh;
+
+        }
+        .background { 
+            background-image: url(1541365_4006.jpg);
+            grid-template-columns: auto 35vw auto; 
+            height: 40vh; 
+
+        }
+        .background p {
+            padding-top: 3vh;
+            font-size: 13px;
+        }
+        .boxes { 
+            grid-template-columns: auto 20vw auto 20vw auto 20vw auto;
+            grid-template-rows: 17vh 17vh 17vh; 
+            background-color: rgb(18, 196, 202);
+        }
+        .box1 img {
+            height: 16vh;
+            padding-top: 0.8vh;
+        }
+
+        .box2 img {
+            height: 16vh;
+            padding-top: 0.8vh;
+        }
+
+        .box3 img {
+            height: 16vh;
+            padding-top: 0.8vh;
+        }
+        }
+
+        
+        @media screen and (max-width:500px) {
+            header{
+                background-color: rgb(232, 25, 118);
+                color: rgb(1, 1, 1);
+            }
+            .navbar {
+                grid-template-columns: 11vw 23vw 11vw auto 4vw;
+            }
+
+            .man img {
+                height: 5vh;
+                padding-top: 0.6vh;
+            }
+            h1 {
+            font-size: 3vh;
+            padding-top: 1.5vh; 
+        }
+        .cart img {
+            height: 4vh;
+            padding-top: 1.5vh;
+
+        }
+        li { 
+            padding-inline: 3px;
+            font-size: 2vh; 
+            padding-top: 2vh;
+            font-weight:normal;
+
+        }
+        .background { 
+            background-image: url(pexels-rovenimagescom-949587.jpg);
+            background-size: 500px;
+            background-attachment: fixed;
+            grid-template-columns: auto 40vw auto; 
+            height: 35vh; 
+
+        }
+        .background p {
+            padding-top: 2vh;
+            font-size: 10px;
+            font-weight: normal;
+        }
+        .boxes {  
+            grid-template-columns: auto 45vw auto;
+            grid-template-rows: 5vh 25vh 5vh 25vh 5vh 25vh 5vh; 
+            background-color: rgb(191, 164, 75); 
+        }
+        
+        .box1 img { 
+            height: 23vh;
+            padding-top: 0.8vh;
+        }
+
+        .box2 img { 
+            height: 23vh;
+            padding-top: 0.8vh;
+        }
+
+        .box3 img {
+            height: 23vh;
+            padding-top: 0.8vh;
+        }
+        .box1 { 
+
+            grid-column: 2/3;
+            grid-row: 2/3; 
+        }
+
+        .box2 { 
+            grid-column: 2/3;
+            grid-row: 4/5;  
+        }
+
+        .box3 { 
+            grid-column: 2/3;
+            grid-row: 6/7;  
+        }
+        }
+
+        
+        @media screen and (max-width:300px) {
+            header{
+                background-color: rgb(232, 25, 25);
+                color: rgb(250, 247, 247);
+            }
+            .navbar {
+                grid-template-columns: 12vw 26vw 11vw auto 4vw;
+            }
+
+            .man img {
+                height: 5vh;
+                padding-top: 0.6vh;
+            }
+            h1 {
+            font-size: 2.5vh;
+            padding-top: 1.5vh; 
+        }
+        .cart img {
+            height: 4vh;
+            padding-top: 1.5vh;
+
+        }
+        li { 
+            padding-inline: 2px;
+            font-size: 1.8vh; 
+            padding-top: 2vh;
+            font-weight:normal;
+
+        }
+        .background { 
+            background-image: url(pexels-rovenimagescom-949587.jpg);
+            background-size: 500px;
+            background-attachment: fixed;
+            grid-template-columns: auto 60vw auto; 
+            height: 45vh; 
+
+        }
+        .background p {
+            padding-top: 1vh;
+            font-size: 10px;
+            font-weight: normal;
+        }
+        .boxes {  
+            grid-template-columns: auto 45vw auto;
+            grid-template-rows: 5vh 25vh 5vh 25vh 5vh 25vh 5vh; 
+            background-color:darkcyan; 
+        }
+        
+        .box1 img { 
+            height: 23vh;
+            padding-top: 0.8vh;
+        }
+
+        .box2 img { 
+            height: 23vh;
+            padding-top: 0.8vh;
+        }
+
+        .box3 img {
+            height: 23vh;
+            padding-top: 0.8vh;
+        }
+        .box1 { 
+
+            grid-column: 2/3;
+            grid-row: 2/3; 
+        }
+
+        .box2 { 
+            grid-column: 2/3;
+            grid-row: 4/5;  
+        }
+
+        .box3 { 
+            grid-column: 2/3;
+            grid-row: 6/7;  
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="man"><img src="man1.png" alt="man"></div>
+            <h1>YeS cArT</h1>
+            <div class="cart"><img src="carts.png" alt="cart"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Serviece</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="background">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, quam harum vitae dolor quis optio commodi
+                debitis magni enim numquam! Excepturi accusamus nemo dolorum corporis harum magnam incidunt, rem
+                provident eveniet laudantium iste tenetur maxime sequi possimus sit ullam ipsum saepe quo earum
+                obcaecati autem assumenda et quia facilis? Blanditiis.
+            </p>
+        </div>
+        <div class="boxes">
+            <div class="box1"><img src="man1.png" alt=""></div>
+            <div class="box2"><img src="man1.png" alt=""></div>
+            <div class="box3"><img src="man1.png" alt=""></div>
+        </div>
+    </main>
+</body>
+
+</html>

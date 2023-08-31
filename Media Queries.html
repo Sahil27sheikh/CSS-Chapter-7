@@ -1,0 +1,56 @@
+<!-- media query is most important in css to make the responsive website -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        .container{
+            display: flex;
+            display: inline-block;
+            background-color: yellow;
+            height: 50vh;
+            align-content: center;
+
+        } 
+        
+        .image img{
+            height: 30vh; 
+        }
+        @media screen and (max-width: 800px) {
+            body{
+                background-color: black;
+            }
+            .image img{
+                height: 80px;
+            }
+            .container{
+                background-color: chartreuse;
+                height: 60vh;
+                margin: 10px;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            body{
+                background-color: black;
+            }
+            .image img{
+                height: 90px;
+            }
+            .container{
+                background-color: rgb(20, 133, 193);
+                height: 80vh;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, nobis nesciunt ratione aperiam totam nisi velit accusantium impedit repellendus similique blanditiis ipsum facere eum dolorum magni exercitationem aliquid? Atque minus facere nostrum assumenda at? Obcaecati incidunt fuga dolorum nobis illo sint dolor inventore error? Cumque nulla deserunt sint nesciunt veritatis, molestiae minus aliquam, assumenda, eius quam eaque delectus sed et necessitatibus ad. Harum assumenda labore et error libero tenetur sequi omnis ducimus autem id ea, corporis laboriosam quisquam. Nulla deserunt sint impedit ad fuga dolor est nisi repellendus obcaecati dolorum dolore, laboriosam, harum dolorem et accusantium, hic ducimus nemo iste?
+        <div class="image"><img src="man1.png" alt=""></div>
+    </div>
+</body>
+</html>

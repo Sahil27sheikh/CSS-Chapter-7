@@ -3,7 +3,7 @@ In this repository i have added some of my CSS<b> "Grid property in CSS" and
 "Media Queries in CSS"</b> knowledge like this-
 
 <h1><b>CSS Grid Property:-</b></h1>
-<h2>Grid Propertys For Main Container:</h2>
+<b>Grid Propertys For Main Container:</b>
         &#10148; <b>Display grid:</b>
         &#10148; <b>Grid Row Gap:</b>
                  Example:
@@ -29,7 +29,7 @@ In this repository i have added some of my CSS<b> "Grid property in CSS" and
                  &#x2022; grid-template-rows: 40px 2em 30px; 
                  &#x2022; grid-template-rows: minmax(150px, 1fr);  
                  &#x2022; grid-template-rows: 34px 45px 12px auto 34px; 
-<h2>Grid Propertys For Grid Items:</h2>
+<b>Grid Propertys For Grid Items:</b>
         &#10148; <b>Grid Columns:</b>
                  Example-
                  &#x2022; grid-column: 1/3;
