@@ -62,7 +62,21 @@ In this repository i have added some of my CSS<b> "Grid property in CSS" and
         &#10148;<b>to-form values in media querie</b>
         &#10148;<b>Persentage system in media querie</b>
                    and so on......<hr>
-&#10148; <b>Practice set 1:</b> With the use of CSS grid system and media queries i am creat the navbar and main container contain the paragraph. after it add media queries values which has change the colore of navbar and container more than three time at the spacific screen size.<hr>  
-&#10148; <b>Practice set 2:</b> With the use of CSS grid system and media queries i am creat the navbar with cart logo, Home, About, Servieces and main container which is contain other two container which is alignn in evensy space in container. after it add media queries values which has change the colore of navbar, main container and two child containers more than three time at the spacific screen size.<hr>  
-&#10148; <b>Practice set 3:</b> With the use of CSS grid system and media queries i am creat the navbar (contain Man logo, YesCart name logo, Cart image, Home, About, Serviece and contact Us) which change the size and color more than tree times, Container-1 (contain background image and centered align paragraph) which has change the background images more than three times at the spacific screen size, and at the last Container-2 (contain three child containers that contain the images whth different background colors) which has change the size background colors and the position of horiznantal to verticle directions. <b>this home page is responsive on all the diveces like mobiles, tablates and pc<hr>  
+&#10148; <b>Practice set 1:</b> With the use of CSS grid system and media queries
+i am creat the navbar and main container contain the paragraph. after it add media
+queries values which has change the colore of navbar and container more than three
+time at the spacific screen size.<hr>  
+&#10148; <b>Practice set 2:</b> With the use of CSS grid system and media queries i
+am creat the navbar with cart logo, Home, About, Servieces and main container which
+is contain other two container which is alignn in evensy space in container. after
+it add media queries values which has change the colore of navbar, main container and
+two child containers more than three time at the spacific screen size.<hr>  
+&#10148; <b>Practice set 3:</b> With the use of CSS grid system and media queries i am
+creat the navbar (contain Man logo, YesCart name logo, Cart image, Home, About, Serviece
+and contact Us) which change the size and color more than tree times, Container-1 (contain
+background image and centered align paragraph) which has change the background images
+more than three times at the spacific screen size, and at the last Container-2 (contain
+three child containers that contain the images whth different background colors) which has
+change the size background colors and the position of horiznantal to verticle directions.
+<b>this home page is responsive on all the diveces like mobiles, tablates and pc<hr>  
 </pre>
